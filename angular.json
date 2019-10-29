@@ -63,7 +63,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "angular-name-card:build"
+            "browserTarget": "angular-name-card:build",
+            "poll": 1000
           },
           "configurations": {
             "production": {
